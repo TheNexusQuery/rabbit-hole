@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Nexus Query - Deep Dive Research</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for better readability and mobile experience */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f9;
+            color: #1f2937;
+            line-height: 1.75;
+        }
+        /* Style for the long-form content area */
+        .article-content p {
+            margin-bottom: 1.5rem;
+            text-indent: 1.5rem; /* Optional: adds a classic news-style indent */
+        }
+        .article-content h2 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        .article-card {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="bg-gray-900 text-white shadow-lg sticky top-0 z-10">
+        <div class="container mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
+            <h1 class="text-3xl font-extrabold tracking-tight mb-2 sm:mb-0 text-indigo-400">
+                The Nexus Query
+            </h1>
+            <nav>
+                <a href="#recent-posts" class="text-gray-300 hover:text-indigo-400 mx-3 transition duration-300 font-medium text-lg">
+                    Recent
+                </a>
+                <a href="#about" class="text-gray-300 hover:text-indigo-400 mx-3 transition duration-300 font-medium text-lg">
+                    About
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <section id="recent-posts" class="mb-12">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8 border-b-2 border-indigo-500 pb-2">
+                Latest Deep Dive
+            </h2>
+
+            <!--
+                *** CONTENT MANAGEMENT INSTRUCTIONS ***
+
+                1. To update your website, you only need to edit the content INSIDE this <article> tag.
+                2. Replace the sample content below with your new research story (paste it here).
+                3. The format uses simple HTML (<h2> for title, <p> for paragraphs) to keep things clean.
+                4. If your AI conversation or text document is in Markdown, you will need to convert it to HTML first (there are many free online converters).
+            -->
+            <article class="article-card bg-white p-6 md:p-10 rounded-xl">
+
+                <!-- POST TITLE -->
+                <h2 class="text-3xl font-extrabold text-gray-900 mb-3 leading-tight">
+                    The Silent Revolution: How Mycelium Networks are Rewriting Ecology
+                </h2>
+                <!-- POST META / BYLINE -->
+                <p class="text-sm text-gray-500 mb-6 border-b pb-4">
+                    By The Nexus Query | October 26, 2025 | Topic: Biology & Systems
+                </p>
+
+                <!-- ARTICLE BODY CONTENT START -->
+                <div class="article-content text-gray-700 text-lg">
+                    <p>
+                        Beneath our feet, in every forest, field, and even city park, an invisible, subterranean internet hums with activity. This network is the **mycelium**, the root system of fungi, and it is quietly overturning our understanding of how ecosystems communicate, thrive, and survive. Far from being mere decomposers, these networks act as nature's central nervous system, connecting plants, sharing resources, and potentially holding the key to sustainable futures in agriculture and materials science.
+                    </p>
+
+                    <h3 class="text-2xl font-semibold mt-6 mb-4 text-gray-800">
+                        The Wood Wide Web
+                    </h3>
+
+                    <p>
+                        For decades, biologists viewed the root systems of trees and other plants as independent units competing fiercely for finite resources. The discovery of **mycorrhizal networks** fundamentally challenged this view. These fungal threads attach themselves to plant roots, acting as efficient highways that allow distant trees to share water, carbon, nitrogen, and even defensive warning signals. This cooperative structure, often termed the "Wood Wide Web," suggests a level of interconnectedness previously attributed only to animal or human societies.
+                    </p>
+
+                    <h3 class="text-2xl font-semibold mt-6 mb-4 text-gray-800">
+                        A Blueprint for Bio-Materials
+                    </h3>
+
+                    <p>
+                        Beyond their ecological role, mycelium networks are emerging as a revolutionary material science component. When grown on agricultural waste (like sawdust or corn stalks), mycelium can be guided to create dense, durable structures. These bio-materials are now being used as sustainable replacements for plastics, leather, and even building insulation. The entire manufacturing process is carbon-negative, requires minimal energy, and results in a compostable product, solving major issues associated with petroleum-based production.
+                    </p>
+
+                    <p>
+                        The true deep dive into mycelium reveals a paradigm shift: nature often favors cooperation over competition. As we face global challenges in climate and resource scarcity, this ancient, networked life form provides modern blueprints for survival.
+                    </p>
+                </div>
+                <!-- ARTICLE BODY CONTENT END -->
+
+            </article>
+            <!-- END OF ARTICLE CONTAINER -->
+
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="mt-16 pt-10 border-t border-gray-300">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">
+                About The Nexus Query
+            </h2>
+            <div class="text-gray-700 text-lg max-w-3xl">
+                <p>
+                    This is a simple, no-frills platform dedicated to the deep dive. We explore topics that spark curiosity, ranging from history and science to philosophy and culture, providing the longer context and analysis often missing from social media feeds. Content is updated frequently and generated primarily from structured research and detailed AI conversations.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 mt-12 py-8 text-center">
+        <p class="text-gray-400 text-sm">
+            &copy; 2025 The Nexus Query. All Rights Reserved.
+        </p>
+        <p class="text-gray-500 text-xs mt-2">
+            Built with a single HTML file for zero-cost, quick updates.
+        </p>
+    </footer>
+
+</body>
+</html>
